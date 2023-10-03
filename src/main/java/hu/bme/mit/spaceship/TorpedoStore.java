@@ -52,7 +52,9 @@ public class TorpedoStore {
   }
 
   public boolean isEmpty(){
-    return this.torpedoCount <= 0;
+    boolean hassomething = this.torpedoCount > 0;
+
+    return !hassomething;
   }
 
   public int getTorpedoCount() {
