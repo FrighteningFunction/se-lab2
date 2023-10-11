@@ -16,7 +16,9 @@ public class GT4500 implements SpaceShip {
   }
 
   public boolean fireLaser(FiringMode firingMode) {
-    // TODO not implemented yet
+    for (int i=0; i<4; i++){
+      fireLaser( firingMode);
+    }
     return false;
   }
 
